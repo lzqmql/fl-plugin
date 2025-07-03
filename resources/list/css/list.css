@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    background-image: url(../img/cool-background.png);
+    background-size: cover;
+    color: white;
+    width: 900px;
+    font-size: 20px;
+}
+
+.topdiv {
+    background-color: rgb(14, 5, 19);
+    width: 900px;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+
+.topdiv div {
+    position: relative;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    z-index: 10;
+}
+
+.wl {
+    border-radius: 100%;
+    position: absolute;
+}
+
+.dsw {
+    top: -22%;
+    left: 27%;
+}
+
+.bqd {
+    width: 120px;
+    height: 120px;
+    top: 0px;
+}
+
+.shwz {
+    top: -7%;
+    left: 27%;
+    width: 140px;
+    height: 140px;
+    z-index: 5;
+}
+
+.topdiv div span {
+    margin-top: 5px;
+    width: 80px;
+    text-align: center;
+    z-index: 10;
+}
+
+#container>div>div:nth-child(2)>span:nth-child(3) {
+    margin-top: 5px;
+    font-size: 24px;
+    color: #ff9c00;
+}
+
+#container>div>div:nth-child(1)>span:nth-child(3) {
+    color: #ceb894;
+}
+
+#container>div>div:nth-child(3)>span:nth-child(3) {
+    color: #ceb894;
+}
+
+
+.topdiv div span:nth-child(3) {
+    margin-top: 15px;
+    width: 160px;
+    font-size: 22px;
+}
+
+.topdiv div span:nth-child(4) {
+    width: 160px;
+    font-size: 20px;
+}
+
+.topdiv div span:nth-child(5) {
+    width: 160px;
+    font-size: 16px;
+}
+
+.strong {
+    color: red;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-top: 0px;
+}
+
+tr:nth-child(1) {
+    background-color: rgb(14, 5, 19);
+}
+
+
+
+th,
+td {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+
+tr>th:nth-child(2) {
+    text-align: left;
+    padding-left: 12%;
+}
+
+td img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 10px;
+    margin-left: 20%;
+}
+
+td:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#container>table>tbody>tr:nth-child(2)>td:nth-child(1)::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/金牌.png);
+    position: absolute;
+    top: 17%;
+    left: 33%;
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+}
+
+#container>table>tbody>tr:nth-child(3)>td:nth-child(1)::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/银牌.png);
+    position: absolute;
+    top: 13%;
+    left: 33%;
+    background-size: 40px 50px;
+    background-repeat: no-repeat;
+}
+
+#container>table>tbody>tr:nth-child(4)>td:nth-child(1)::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/铜牌.png);
+    position: absolute;
+    top: 11%;
+    left: 25%;
+    background-size: 50px 55px;
+    background-repeat: no-repeat;
+}
+
+.last {
+    line-height: 40px;
+    font-weight: 600;
+    background-color: rgb(14, 5, 19);
+}
+
+.allcount,
+.botcount {
+    display: inline-block;
+    margin-top: 40px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.allcount {
+    position: absolute;
+    right: 80px;
+}
+
+.botcount {
+    position: absolute;
+    left: 20px;
+}
+
+.count {
+    width: 100%;
+    height: 100px;
+    position: relative;
+}

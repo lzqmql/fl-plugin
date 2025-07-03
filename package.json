@@ -1,0 +1,25 @@
+{
+  "name": "Fl-Plugin",
+  "version": "2.0.0",
+  "description": "Yunzai-Bot附属插件",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/lzqmql/fl-plugin.git"
+  },
+  "keywords": [
+    "Yunzai-Bot",
+    "Fl-Plugin"
+  ],
+  "author": "SunRyK",
+  "license": "MIT",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "image-size": "^1.0.2",
+    "systeminformation":"^5.21.18"
+  }
+}
