@@ -9,6 +9,8 @@
 ```
 使用Github
 git clone --depth=1 https://github.com/lzqmql/fl-plugin.git ./plugins/Fl-Plugin/
+国类使用Github代理加速
+git clone --depth=1 https://ghfast.top/https://github.com/lzqmql/fl-plugin.git ./plugins/Fl-Plugin/
 使用Gitee
 git clone --depth=1 https://gitee.com/lzqmql/fl-plugin.git ./plugins/Fl-Plugin/
 ```
